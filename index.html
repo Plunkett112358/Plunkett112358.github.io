@@ -1,132 +1,216 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meghann Plunkett</title>
+    
+   <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/animate.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src='javascripts/jquery.js'></script>
+    <script src='javascripts/bootstrap.js'></script>
+    <script src='javascripts/app.js'></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAVBAR HTML-->
+      <div id="custom_nav" class="navbar navbar-fixed-top">
+        <ul class="nav">
+           <li>
+            <a class="fade_in" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="about_fade_in" href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="contact_fade_in" id="contact_title_fade_in" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
 
-<head>
-  
-  <title>Meghann Plunkett</title>
-  <link rel="stylesheet" href="stylesheets/animate.css">
-
-  <link rel="stylesheet" href="stylesheets/style.css"/>
-
-  <link href='http://fonts.googleapis.com/css?family=Lobster|Karla' rel='stylesheet' type='text/css'>
-
- 
-
-</head>
-<body>
-
-
-  <nav>
-    <ul>
-      <a href = "#home"><li>Home</li></a>
-      <a href = "#about"><li>About</li></a>
-      <a href = "#portfolio"><li>Code</li></a>
-      <a href = "#theater"><li>Theater</li></a>
-      <a href = "#poetry"><li>Poetry</li></a>
-      <a href = "#resume"><li>Resume</li></a>
-      <a href = "#contact"><li>Contact</li></a>
-    </nav>
-
-    <a name= "#home"></a>
-    <div class="main">
-      <section id="home">
-        <header>
+      <!-- HOME SECTION HTML-->
+      <div id="home">
+        <div class="one_fifth_holder">
+        </div>
+        <div id="home_content" class="center_fix">
           <h1>Meghann Plunkett</h1>
-        </header>
-        <div id = "logo">
-          <img class = "animated fadeInUp" id = "eyes" src="images/eyes.png" alt="">
-          <h3 class="tag-line">Web-Developer & Poet</h3> </div>  
-        </section>
-
-        <a name= "#about"></a>
-        <section id="about">
-
-          <h2 class="sub-head">About Meghann Plunkett</h2>
-
-          <div id = "about">
-            <img id = "photo" src="images/plunk.png" alt="">
-
-            <div class="about-blob">
+          <h3>Full-Stack Web Developer & Poet</h3>
+          <img id="eyes" class="animated fadeInUp" src="images/eyes.png" alt="">
+        </div>
+      </div>
+        
+        <!-- ABOUT SECTION HTML-->
+      <div id="about">
+       <div id="about_content">
+            <img id= "plunk-hello" src="images/plunk.png" alt="Meghann Plunkett">
+             
+            <div id = "bio">
               <p>
-                Hi. I'm a full-stack web developer & a poet. 
-              </p>
-              <p>
-                skdjhfksdjhfkshdfkjshdkjfhsdkjfhksdjhfkjsdhfkjdshfkd
-              </p>
+                My name is Meghann Plunkett and I am a brand-new Full Stack Web Developer and recent graduate of General Assemb.ly's Web Development Immersive where I working with technologies:</p>
+                <ul>
+                  <li>Ruby on Rails </li>
+                  <li>Javascript (JQuery, Backbone.js, Underscore.js, Handlebars.js, d3.js) </li>
+                  <li>  </li>
+                  <li> </li>
+                  <li> </li>
+                  <li></li>
+                </ul>
+                I am also a Poet and Producer of Live Theater Shows. 
             </div>
-          </div>
-        </section>
-
-        <a name= "#portfolio"></a>
-        <section id = "portfolio">
-          <h2 class="sub-head">A Few Things I've Made</h2>
-          <div id = "borrow-app">
-            <img id = "borrow" src="images/borrow.png" alt="">
-            <img id = "mid" src="images/mid.png" alt="">
-          </div>
-
-        </section>
-
-        <a name= "#theater"></a>
-        <section id="theater">
-          <h2 class="sub-head">Theater</h2>
-
-          <img id = "kpp" src="images/KissPunchPressRelease1.png" alt="">
-
-        </section>
+        </div>
+      </div>
 
 
-          
-        <section id="poetry">
-           <h2 class="sub-head">Poetry</h2>
-         <div id = "poems">  
-         <h3>Read Some:</h3> 
-          <p><a href = "http://books.simonandschuster.com/Chorus/Saul-Williams/9781451649833">You Were Built for Digestion |  Simon & Schuster</a> </p>
-        <p><a href = "http://www.theparisamerican.com/meghann-plunkett-poetry.html">Delta  |  The Paris-American</a> </p>
-       <p> <a href = "http://www.theparisamerican.com/meghann-plunkett-poetry.html">Water  |  The Paris-American</a> </p>
-        <p><a href = "http://www.theparisamerican.com/meghann-plunkett-poetry.html">The Tool Shed  |  The Paris-American</a> </p>
-         <p> <a href = "http://www.muzzlemagazine.com/meghann-plunkett-2.html">Long Distance Larceny  |  published by Muzzle Magazine</a> </p>
-          <p>  <a href = "http://www.muzzlemagazine.com/meghann-plunkett-1.html">Adolescence |  Muzzle Magazine</a> </p>
-           <p>  <a href = "http://loveisthicker.tumblr.com/post/4015058597/this-way-by-meghann-plunkett">This Way |  L.I.T Magazine</a> </p>
-           <p>  <a href = "http://louderarts.com/poets/plunkett/">Mea Culpa |  LouderARTS</a> </p>
-          </div>
+      <!-- PROJECTS SECTION HTML-->
+      <div id="projects">
+        <div class="title_holder">
+        </div>
+        <div class="title center_fix">
+          <h1>Previous Work</h1>
+        </div>
 
-        </section>
+        <!--  Carousel -->
+        <div id="my_carousel" class="carousel slide"><!-- class of slide for animation -->
+          <div class="carousel-inner">
+            <div id="vital_tracker" class="item active"><!-- class of active since it's the first item -->
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h1>MidPoint</h1>
+                    <p>An app that allows you to find yelp recommendations at the midpoint of multiple locations in terms of travel time.</p>
+                    <h3>Technologies Used:</h3>
+                    <ul>
+                      <li>Ruby/Rails</li>
+                      <li>JavaScript/JQuery</li>
+                      <li>AJAX</li>
+                      <li>Twilio API</li>
+                      <li>Twitter Bootstrap</li>
+                    </ul>
+                    <div class="github_link">
+                      <a target="_blank" href="">
+                        <i class=" fa fa-github fa-5x"></i>
+                      </a>
+                    </div>
+                  </td>
+                  <td class="project_img midpoint">
+                    <a target="_blank" href="http://midpoint-app.herokuapp.com/">
+                      <img src="images/midpoint.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
 
+            <div id="kin" class="item">
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h1>KIN</h1>
+                    <p>A menstrual cycle tracking app with a social networking component.</p>
+                    <h3>Technologies Used:</h3>
+                    <ul>
+                      <li>Ruby/Rails</li>
+                      <li>Backbone.js</li>
+                      <li>JQuery.js</li>
+                      <li>Handlebars.js</li>
+                       <li>D3.js</li>
+                      <li>Foundation</li>
+                      <li>RSpec</li>
+                      <li> Capybara</li>
+                    </ul>
+                    <div class="github_link">
+                      <a target="_blank" href="https://github.com/jtrope89/world_recipes">
+                        <i class=" fa fa-github fa-5x"></i>
+                      </a>
+                    </div>
+                  </td>
+                  <td class="project_img">
+                    <a target="_blank" href="http://pacific-springs-3740.herokuapp.com">
+                      <img src="images/kin.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
 
+            <div id="borrow" class="item">
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h1>Borrow</h1>
+                    <p>An app that allows you to keep track of the book you have borrowed and lent.</p>
+                    <h3>Technologies Used:</h3>
+                    <ul>
+                      <li>Ruby/Rails</li>
+                      <li>Twilio API</li>
+                      <li>Twitter Bootstrap</li>
+                    </ul>
+                    <div class="github_link">
+                      <a target="_blank" href="https://github.com/Plunkett112358/cuppa_sugar">
+                        <i class=" fa fa-github fa-5x"></i>
+                      </a>
+                    </div>
+                  </td>
+                  <td class="project_img midpoint">
+                    <a target="_blank" href="http:/http://borr-ow.herokuapp.com/">
+                      <img src="images/borrow.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
 
-        <section id="contact">
+            </div>
+          </div><!-- /.carousel-inner -->
+          <!--  Next and Previous controls below -->
+          <a class="carousel-control left" href="#my_carousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#my_carousel" data-slide="next">&rsaquo;</a>
+        </div><!-- /.carousel -->
 
-          <div id = "contact-me">
-            <h2 class="sub-head">Hey, I like you!</h2>
-            <h2>Contact Me</h2>
-          </div>
-          <div id= "contacts">
-            <p class="shout" id="write">
-              <a href="mailto:plunkett.meghann@gmail.com">Email</a>
-            </p>
-            <p class="shout">
-              <a target="#" href="">linkedin</a>
-            </p>
-            <p class="shout">
-              <a target="#" href="">Twitter</a>
-            </p>
-            <p class="shout">
-              <a target="#" href="http://github.com/plunkett112358"> Github</a>
-            </p>
-            <p class="shout" id="write">
-              <a href="http://www.magnettheater.com/shows/42357-Kiss*Punch*Poem">Get Tickets to KissPunch</a>
-            </p>
-          </div>
-          <div id="footer">
-            <footer>
-              <p class="tiny">
-                All My Whimsy, <a href="#home">Meghann Plunkett</a>
-              </p>
-            </footer>
-          </div>
+      </div>
 
+      <!-- CONTACT SECTION HTML-->
+      <div id="contact">
+        <div class="title_holder">
+        </div>
+        <div id= "contact-title" class="title center_fix">
+          <h1>Contact Me</h1>
+        </div>
 
-        </body>
-
-
-        </html>
+        <div id="info">
+          <ul class="fa_ul">
+            <li class="first">
+              <h3>Email</h3>
+              <a href="mailto:plunkett.meghann@gmail.com" target="_blank">
+                <i class=" fa fa-envelope fa-5x"></i>
+              </a>
+            </li>
+            <li>
+              <h3>Resume</h3>
+              <a href="" target="_blank">
+                <i class=" fa fa-file-text-o fa-5x"></i>
+              </a>
+            </li>
+          </ul><br>
+          <ul class="fa_ul">
+            <li class="first">
+              <h3>LinkedIn</h3>
+              <a href="http://www.linkedin.com/in/meghannplunkett/" target="_blank">
+                <i class=" fa fa-linkedin fa-5x"></i>
+              </a>
+            </li>
+            <li>
+              <h3>GitHub</h3>
+              <a href="https://github.com/plunkett112358" target="_blank">
+                <i class=" fa fa-github fa-5x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

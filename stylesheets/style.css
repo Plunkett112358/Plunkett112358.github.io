@@ -1,214 +1,250 @@
-/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+body, html {height: 100%; }
 
-/*body {
-  height: 100%;
-}*/
-
-
-
-body, html {
-  height: 100%;
-  background-color: grey;
+body {
+    font-family: helvetica;
+    color: black;
 }
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+/* Styling for projects section */
+#projects {
+    color: black;
+}
+
+#borrow, #midpoint, #kin {
+    height: 450px;
+    background-color: white;
+}
+
+/* Styling for home section */
 #home {
-  background-color: rgba(242, 234, 214, 1);
-  text-align: center;
-  height: 100%;
+     width: 100%;
+     height: 100%;
+    background-color: white;
+   
 }
 
-#about {
-  background-color: grey;
-  
-  height: 100%;
+#home_content h1 {
+    font-family: 'Special Elite', cursive;
+    /*text-shadow: 3px 3px 0 black;*/
+    font-size: 600%;
+    padding-bottom: 30px;
 }
 
-#portfolio {
-  background-color: white;
-  
-  height: 100%;
-}
-
-#poetry {
-  background-color: white;
- 
-  height: 100%;
-}
-
-#theater{
-  background-color: white;
-  
-  height: 100%;
-}
-
-
-#contact {
-  background-color: rgba(36, 143, 171, 1);
-  text-align: center;
-  height: 100%;
-}
-
-.about-blob{
-  width: 50%;
-  height: 40%;
-  padding: 4em;
-  margin: 5em auto;
-  margin-right: 10px;
-  float: right;
-  border: 2px solid black;
-  border-radius: 5em;
-  background-color: white;
-}
-
-header {
-  padding-top: 100px;
-}
-
-#poems {
-  padding: 20px;
-  text-align: center;
-}
-
-#footer {
-  padding-top: 1.3em;
-  bottom: 0;
-  clear: both;
-  background-color: white;
-  height: 18%;
-  color: white;
-}
-
-/*******************************************************************
-TEXT
-*******************************************************************/
-h1 {
-  font: 6em 'Lobster', cursive;
-  color: black;
-}
-h2 {
-  text-align: center;
-  font: 5em 'Karla', "Helvetica", sans-serif;
-  clear: both;
-}
-
-h3 {
-  text-align: center;
-  clear: both;
-}
-
-p {
-  font-size: 1.3em;
-  margin-bottom: 2em;
-  font: 20px 'Karla', "Helvetica", sans-serif;
-  color: black;
-  line-height: 1.3em;
-}
-
-.sub-head {
-  /*margin-top: 100px;*/
-  padding-top: 100px;
-}
-
-#contact-me {
-  padding: 30px;
-}
-
-a {
-  text-decoration: none;
-  color: black
-}
-
-a:hover {
-  color: rgba(107,205,191,1);
-}
-
-
-
-nav {
-  background-color: transparent;
-  z-index: 100;
-  position: fixed;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  overflow: hidden;
-}
-
-nav li {
-  font-family: "Karla";
-  font-weight: bold;
-  font-size: 19px;
-  color: rgba(242, 234, 214, 1);
-  list-style: none;
-  display: inline-block;
-  padding: 20px;
-  width: 4em;
-  border-radius: 100%;
-  background-color: black;
-  margin: 25px;
-}
-
-ul li:hover {
-  background: grey;
-  cursor: pointer;
-  -webkit-transform: scale(1.2);
-  transition: all 0.5s ease;
-}
-
-a li {
-  color: rgba(244,238,229,1);
-  font-weight:normal;
-
-}
-
-
-
-.apps {
-  border: 2px solid red;
-}
-
-.apps div {
-  display: inline;
-}
-
-
-
-
-
-
-#photo {
-  height: 400px;
-  margin: 50px;
-  margin-top: 50px;
-  
-}
-
-
-.tag-line {
-  font: 3em 'Karla', "Helvetica", sans-serif;
-}
-
-img {
-
-  margin: 0 auto;
-}
-
-#logo {
-padding-top: -100px;
- 
-}
-
-#kpp {
-  height: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#home_content h3 {
+    font-family: 'Special Elite', cursive;
 }
 
 #eyes {
- height: 350px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 
+}
+
+
+#about_content {
+    
+    font-family: helvetica;
+    
+    /*text-shadow: 3px 3px 0 black;*/
+    font-size: 700%;
+    /*padding-bottom: 30px;*/
+     
+    
+}
+
+#about_content div{
+        display: inline-block;
+        position: relative;
+}
+
+#plunk-hello {
+    height: 400px;
+    position: absolute;
+    margin-top: 200px;
+}
+
+#photo {
+    /*display: inline;*/
+
+
+}
+
+#bio {
+  /*  width: 10px;*/
+  margin-right: 313px;
+    position: absolute;
+    height: 200px;
+    width:400px;
+    float right;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    float: right;
+   
+}
+
+#bio p{
+    margin-top: 200px;
+}
+
+/*ABOUT-BIO*/
+
+#about {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+   
+}
+
+
+
+
+/* Styling for projects section */
+#projects {
+    height: 100%;
+    background-color: white;
+}
+
+#my_carousel {
+    margin: 0 auto;
+    width: 80%;
+    /*border: 5px solid black;*/
+    color: black;
+}
+
+.project_desc {
+    padding: 20px 20px 20px 80px;
+    width: 50%
+}
+
+.project_desc p {
+    line-height: 180%;
+    font-size: 120%;
+}
+
+.project_desc i {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.project_img img {
+    width: 90%;
+    border: 3px solid white;
+}
+
+.midpoint img {
+    height: 50%;
+}
+
+/* Styling for contact section */
+#contact {
+    height: 100%;
+    background-color: white;
+}
+
+#info {
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+  /*  border: 10px solid black;
+    border-radius:25px;;*/
+    height: 50%;
+    width: 35%;
+}
+
+#info a {
+    color: black;
+}
+
+.fa_ul {
+    text-align: center;
+    list-style-type: non;
+}
+
+.fa_ul li {
+    display: inline-block;
+}
+
+.fa_ul .first {
+    margin-right: 80px;
+}
+
+.contact_group {
+    margin: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    width: 45%;
+    height: 90%;
+}
+
+/* styling for navbar */
+.navbar {
+    width: 100%;
+    margin: 30px auto 0 auto;
+}
+
+.nav {
+    background-color: white;
+    padding: 3px;
+    /*-webkit-box-shadow: 1px 1px 0 0 #bdc3c7;
+    box-shadow: 1px 1px 0 0 #bdc3c7;;*/
+}
+
+#custom_nav a {
+    font-size: 180%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Special Elite', cursive;
+}
+
+#custom_nav a:hover {
+    font-size: 190%;
+}
+
+/* Universal */
+.title {
+    font-family: 'Special Elite', cursive;
+    padding-bottom: 10px;
+}
+
+.title h1 {
+    font-size: 400%;
+}
+
+/* positioning styling */
+
+.center_fix {
+    margin: 0 auto;
+    padding-right: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+.title_holder {
+    height: 15%;
+}
+
+.one_fifth_holder {
+    height: 25%;
+}
+
+#technologies {
+    padding-top: 20px;
+}
+
+#technologies h2 {
+    border-bottom: 1px solid white;
+}
+
+.tech_ul {
+    width: 20%;
+    text-align: left;
+    float: left;
 }
