@@ -27,6 +27,9 @@
             <a href="#projects">Projects</a>
           </li>
           <li>
+            <a href="#poetry">Poetry&Theater</a>
+          </li>
+          <li>
             <a class="contact_fade_in" id="contact_title_fade_in" href="#contact">Contact</a>
           </li>
         </ul>
@@ -37,7 +40,7 @@
         <div class="one_fifth_holder">
         </div>
         <div id="home_content" class="center_fix">
-          <h1>Meghann Plunkett</h1>
+          <h1 id="name">Meghann Plunkett</h1>
           <h3>Full-Stack Web Developer & Poet</h3>
           <img id="eyes" class="animated fadeInUp" src="images/eyes.png" alt="">
         </div>
@@ -50,16 +53,19 @@
              
             <div id = "bio">
               <p>
-                My name is Meghann Plunkett and I am a brand-new Full Stack Web Developer and recent graduate of General Assemb.ly's Web Development Immersive where I working with technologies:</p>
+                My name is Meghann Plunkett and aside from being a Poet and Producer of live-theater shows, I am a brand-new Full Stack Web Developer and recent graduate of General Assemb.ly's Web Development Immersive where I designed and built web applications using various technologies/resources such as the following:
                 <ul>
-                  <li>Ruby on Rails </li>
-                  <li>Javascript (JQuery, Backbone.js, Underscore.js, Handlebars.js, d3.js) </li>
-                  <li>  </li>
-                  <li> </li>
-                  <li> </li>
-                  <li></li>
-                </ul>
-                I am also a Poet and Producer of Live Theater Shows. 
+                  <li>Ruby on Rails (3/4)</li>
+                  <li>Sinatra</li>
+                  <li>JavaScript (jQuery, AJAX, Underscore.js, Backbone.js, d3.js, ...)</li>
+                  <li>SQL (PostgreSQL, mySQL)</li>
+                  <li>NoSQL (MongoDB)</li>
+                  <li>Website Hosting (AWS, Heroku)</li>
+                  <li>Test Driven Development</li>
+                  <li>Version Control (Git)</li>
+                  <li>Agile Development Environment (PivotalTracker, Trello)</li>
+                  <li> and more</li>
+                 </p>
             </div>
         </div>
       </div>
@@ -76,7 +82,7 @@
         <!--  Carousel -->
         <div id="my_carousel" class="carousel slide"><!-- class of slide for animation -->
           <div class="carousel-inner">
-            <div id="vital_tracker" class="item active"><!-- class of active since it's the first item -->
+            <div id="midpoint" class="item active"><!-- class of active since it's the first item -->
               <table>
                 <tr>
                   <td class="project_desc">
@@ -91,14 +97,45 @@
                       <li>Twitter Bootstrap</li>
                     </ul>
                     <div class="github_link">
-                      <a target="_blank" href="">
-                        <i class=" fa fa-github fa-5x"></i>
+                      <a target="_blank" href="https://github.com/Plunkett112358/time-midpoint">
+                        <img class="git"src="images/github10.png" alt="">
+                        View Source Code
+                        <!-- <i class=" fa fa-github fa-5x"></i> -->
                       </a>
                     </div>
                   </td>
                   <td class="project_img midpoint">
                     <a target="_blank" href="http://midpoint-app.herokuapp.com/">
                       <img src="images/midpoint.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+              <div id="d3" class="item">
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h1>New York Times Besters</h1>
+                    <p>A data visualization of the gender ratios of New York Times Bestsellers from 2011-2013</p>
+                    <h3>Technologies Used:</h3>
+                    <ul>
+                      <li>D3.js</li>
+                      <li>CoffeeScript</li>
+                      <li>Twitter Bootstrap</li>
+                    </ul>
+                    <div class="github_link">
+                      <a target="_blank" href="https://github.com/Plunkett112358/NYT_d3_fun">
+                        <img class="git"src="images/github10.png" alt="Meghann Plunkett">
+                        View Source Code
+                        <!-- <i class=" fa fa-github fa-5x"></i> -->
+                      </a>
+                    </div>
+                  </td>
+                  <td class="project_img d3">
+                    <a target="_blank" href="http://plunkett112358.github.io/NYT_d3_fun/">
+                      <img src="images/d3_nyt.png">
                     </a>
                   </td>
                 </tr>
@@ -123,8 +160,9 @@
                       <li> Capybara</li>
                     </ul>
                     <div class="github_link">
-                      <a target="_blank" href="https://github.com/jtrope89/world_recipes">
-                        <i class=" fa fa-github fa-5x"></i>
+                      <a target="_blank" href="https://github.com/juliekraft/bludkin">
+                        <img class="git"src="images/github10.png" alt="">
+                        View Source Code
                       </a>
                     </div>
                   </td>
@@ -151,19 +189,20 @@
                     </ul>
                     <div class="github_link">
                       <a target="_blank" href="https://github.com/Plunkett112358/cuppa_sugar">
-                        <i class=" fa fa-github fa-5x"></i>
+                        <img class="git"src="images/github10.png" alt="">
+                       View Source Code
                       </a>
                     </div>
                   </td>
                   <td class="project_img midpoint">
-                    <a target="_blank" href="http:/http://borr-ow.herokuapp.com/">
+                    <a target="_blank" href="http://borr-ow.herokuapp.com/">
                       <img src="images/borrow.png">
                     </a>
                   </td>
                 </tr>
               </table>
+            </div>    
 
-            </div>
           </div><!-- /.carousel-inner -->
           <!--  Next and Previous controls below -->
           <a class="carousel-control left" href="#my_carousel" data-slide="prev">&lsaquo;</a>
@@ -171,6 +210,143 @@
         </div><!-- /.carousel -->
 
       </div>
+              
+
+              <!-- POETRY/THEATER SECTION -->
+        <div id="poetry">
+        <div class="title_holder">
+        </div>
+        <div class="title center_fix">
+          
+        </div>
+
+        <!--  Carousel -->
+        <div id="my_carousel_2" class="carousel slide"><!-- class of slide for animation -->
+          <div class="carousel-inner">
+            <div id="my_poetry" class="item active"><!-- class of active since it's the first item -->
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h1>Poetry</h1>
+                    <p>I write a lot of poetry and sometimes it's not terrible. Recently I am a Pushcart Nominee and was recently shortlisted for the Gregory O’Donoghue Poetry Prize. </p>
+                    <h3>Read Some Here:</h3>
+                    <ul>
+                      <li><a target="_blank"href="http://www.theparisamerican.com/meghann-plunkett-poetry.html">Delta</a></li>
+                      <li><a target="_blank" href="http://www.theparisamerican.com/meghann-plunkett-poetry.html">Water</a></li>
+                      <li><a target="_blank" href="http://www.theparisamerican.com/meghann-plunkett-poetry.html">The Tool Shed </a></li>
+                      <li><a target="_blank" href="http://www.muzzlemagazine.com/meghann-plunkett-2.html">Long Distance Larceny </a><img class="icon"src="images/high2.png" alt=""></li>
+                      <li><a target="_blank" href="http://www.muzzlemagazine.com/meghann-plunkett-1.html">Adolescence</a><img class="icon"src="images/high2.png" alt=""></li>
+
+                      <li><a target="_blank" href="https://www.youtube.com/watch?v=ZSHR-fVzBnU">Adolescence</a><img class="icon"src="images/video76.png" alt=""></li>
+                    </ul>  
+                    
+                  </td>
+                  <td class="project_img">
+                      <img src="images/poetry_reading.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+              <div id="kiss_punch" class="item">
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h2>Kiss Punch Poem</h2>
+                    <p>
+                      I am the creator and producer of this original,  live-theater show. The cast includes performers and poets with credits from This American Life, NPR, The Onion, The Second City, The Truth Podcast, Reductress and Story Pirates. </br>
+                      <strong>Praise:</strong>
+                      <ul>
+                         <li><a target="_blank" href="http://www.examiner.com/article/kiss-punch-poem-an-improv-poetry-show">The Examiner</a></li>
+                      <li><a target="_blank" href="http://fictioncircus.com/news.php?id=602">Fiction Circus</a></li>
+                      <li><a target="_blank" href="http://www.literarymanhattan.org/new-york-beyond-the-picture-postcard-reviews-kiss%C2%B7punch%C2%B7poem/">NY Beyond the Postcard</a></li>
+                      <li><a target="_blank" href="http://theamericanreader.com/kisspunchpoem/">The American Reader</a></li>
+
+                    </ul>
+                  </p>
+
+                    </div>
+                  </td>
+                  <td class="project_img ">
+                    <a target="_blank" href="http://www.magnettheater.com/shows/42357-Kiss*Punch*Poem">
+                      <img src="images/kiss_punch.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div id="" class="item">
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h1>KIN</h1>
+                    <p>A menstrual cycle tracking app with a social networking component.</p>
+                    <h3>Technologies Used:</h3>
+                    <ul>
+                      <li>Ruby/Rails</li>
+                      <li>Backbone.js</li>
+                      <li>JQuery.js</li>
+                      <li>Handlebars.js</li>
+                       <li>D3.js</li>
+                      <li>Foundation</li>
+                      <li>RSpec</li>
+                      <li> Capybara</li>
+                    </ul>
+                    <div class="github_link">
+                      <a target="_blank" href="https://github.com/jtrope89/world_recipes">
+                        View Source Code
+                      </a>
+                    </div>
+                  </td>
+                  <td class="project_img">
+                    <a target="_blank" href="http://pacific-springs-3740.herokuapp.com">
+                      <img src="images/kin.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div id="borrow" class="item">
+              <table>
+                <tr>
+                  <td class="project_desc">
+                    <h1>Borrow</h1>
+                    <p>An app that allows you to keep track of the book you have borrowed and lent.</p>
+                    <h3>Technologies Used:</h3>
+                    <ul>
+                      <li>Ruby/Rails</li>
+                      <li>Twilio API</li>
+                      <li>Twitter Bootstrap</li>
+                    </ul>
+                    <div class="github_link">
+                      <a target="_blank" href="https://github.com/Plunkett112358/cuppa_sugar">
+                       View Source Code
+                      </a>
+                    </div>
+                  </td>
+                  <td class="project_img ">
+                    <a target="_blank" href="http://borr-ow.herokuapp.com/">
+                      <img src="images/borrow.png">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>    
+
+          </div><!-- /.carousel-inner -->
+          <!--  Next and Previous controls below -->
+          <a class="carousel-control left" href="#my_carousel_2" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#my_carousel_2" data-slide="next">&rsaquo;</a>
+        </div><!-- /.carousel -->
+
+      </div>
+      
+
+
+
 
       <!-- CONTACT SECTION HTML-->
       <div id="contact">
@@ -183,27 +359,22 @@
         <div id="info">
           <ul class="fa_ul">
             <li class="first">
-              <h3>Email</h3>
+             
               <a href="mailto:plunkett.meghann@gmail.com" target="_blank">
                 <i class=" fa fa-envelope fa-5x"></i>
               </a>
             </li>
-            <li>
-              <h3>Resume</h3>
-              <a href="" target="_blank">
-                <i class=" fa fa-file-text-o fa-5x"></i>
-              </a>
-            </li>
-          </ul><br>
-          <ul class="fa_ul">
+            
+          
+          
             <li class="first">
-              <h3>LinkedIn</h3>
+              
               <a href="http://www.linkedin.com/in/meghannplunkett/" target="_blank">
                 <i class=" fa fa-linkedin fa-5x"></i>
               </a>
             </li>
             <li>
-              <h3>GitHub</h3>
+              
               <a href="https://github.com/plunkett112358" target="_blank">
                 <i class=" fa fa-github fa-5x"></i>
               </a>

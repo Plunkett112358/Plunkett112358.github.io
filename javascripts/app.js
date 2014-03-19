@@ -2,6 +2,7 @@ $(function() {
 
 $(document).ready(function() {
    $('#my_carousel').carousel('pause');
+   $('#my_carousel_2').carousel('pause');
 });
 
     $('a[href*=#]:not([href=#])').not(".carousel-control").click(function() {
@@ -16,6 +17,7 @@ $(document).ready(function() {
             }
         }
         return false;
+
     });
 
     $(".about_fade_in").on("click", function() {

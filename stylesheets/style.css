@@ -15,7 +15,7 @@ body {
     color: black;
 }
 
-#borrow, #midpoint, #kin {
+#borrow, #midpoint, #kin, #d3 {
     height: 450px;
     background-color: white;
 }
@@ -29,8 +29,8 @@ body {
 }
 
 #home_content h1 {
-    font-family: 'Special Elite', cursive;
-    /*text-shadow: 3px 3px 0 black;*/
+    /*font-family: 'Special Elite', cursive;*/
+   
     font-size: 600%;
     padding-bottom: 30px;
 }
@@ -40,8 +40,11 @@ body {
 }
 
 #eyes {
+    width: 70%;
 
 }
+
+
 
 
 #about_content {
@@ -63,7 +66,7 @@ body {
 #plunk-hello {
     height: 400px;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
 #photo {
@@ -74,20 +77,25 @@ body {
 
 #bio {
   /*  width: 10px;*/
-  margin-right: 313px;
+    margin-right: 222px;
     position: absolute;
-    height: 200px;
-    width:400px;
+    height: 40%;
+    width:35%;
     float right;
     display: inline;
-    font-size: 20px;
-    font-family: 'Special Elite', cursive;
+    
+    font-size: 18%;
+    font-family: helvetica;
     float: right;
    
 }
 
 #bio p{
-    margin-top: 200px;
+    margin-top: 180px;
+}
+#bio ul{
+line-height: 180%;
+
 }
 
 /*ABOUT-BIO*/
@@ -117,11 +125,12 @@ body {
 
 .project_desc {
     padding: 20px 20px 20px 80px;
-    width: 50%
+    width: 50%;
+    font-family: helvetica;
 }
 
 .project_desc p {
-    line-height: 180%;
+    line-height: 160%;
     font-size: 120%;
 }
 
@@ -133,6 +142,10 @@ body {
     color: black;
 }
 
+.project_desc a {
+    color: black;
+}
+
 .project_img img {
     width: 90%;
     border: 3px solid white;
@@ -140,6 +153,10 @@ body {
 
 .midpoint img {
     height: 50%;
+}
+
+.git {
+    width: 10%;
 }
 
 /* Styling for contact section */
@@ -156,10 +173,36 @@ body {
     border-radius:25px;;*/
     height: 50%;
     width: 35%;
+    
 }
 
 #info a {
     color: black;
+}
+
+/*poetry section*/
+#poetry {
+    height: 100%;
+    background-color: white;
+}
+
+#my_carousel_2 {
+    margin: 0 auto;
+    width: 80%;
+    /*border: 5px solid black;*/
+    color: black;
+}
+
+#my_poetry, #kiss_punch {
+    height: 450px;
+    background-color: white;
+}
+
+
+ 
+.icon {
+    width: 6%;
+    margin-left: 5px;
 }
 
 .fa_ul {
@@ -215,7 +258,7 @@ body {
 }
 
 .title h1 {
-    font-size: 400%;
+    font-size: 250%;
 }
 
 /* positioning styling */
