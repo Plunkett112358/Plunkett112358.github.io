@@ -218,6 +218,10 @@ line-height: 180%;
     margin-right: 80px;
 }
 
+.first{
+    -vendor-animation-delay: 6s;
+}
+
 .contact_group {
     margin: 10px;
     border: 1px solid black;
