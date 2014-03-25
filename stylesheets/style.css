@@ -172,6 +172,7 @@ line-height: 180%;
 #contact {
     height: 100%;
     background-color: white;
+
 }
 
 #info {
@@ -294,6 +295,10 @@ line-height: 180%;
 
 .first{
     -vendor-animation-delay: 6s;
+}
+
+#contact-title {
+    margin-top: 160px;
 }
 
 .contact_group {
