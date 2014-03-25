@@ -255,8 +255,17 @@ line-height: 180%;
 #skill-list2 {
     font-size: 20px;
     line-height: 180%;
-    margin-top: 200px;
+    margin-top: 90px;
     width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#skill-list3 {
+    font-size: 20px;
+    line-height: 180%;
+    margin-top: 200px;
+    width: 400px;
     margin-left: 20px;
 }
 
