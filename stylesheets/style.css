@@ -206,6 +206,7 @@ line-height: 180%;
 #my_poetry, #kiss_punch, #almanac {
     height: 450px;
     background-color: white;
+    font-family: American Typewriter;
 }
 
 #almanac img{
