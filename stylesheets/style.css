@@ -497,6 +497,14 @@ line-height: 180%;
 
  }
 
+ @media (min-width: 768px) {
+    #tag {
+        font-size: 40px;
+       
+    }
+
+ }
+
   #contact-title {
         font-size: 37px;
         margin-top: -130px;
