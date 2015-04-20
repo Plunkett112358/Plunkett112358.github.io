@@ -5,10 +5,10 @@ body {
     color: black;
 }
 
-.container {
+/*.container {
     height: 100%;
     width: 100%;
-}
+}*/
 
 /* Styling for projects section */
 #projects {
@@ -16,7 +16,9 @@ body {
 }
 
 #name {
-    font-family: 'Special Elite', cursive;
+    /*font-family: 'Special Elite', cursive;*/
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
     
 }
 
@@ -109,12 +111,7 @@ line-height: 180%;
 
 /*ABOUT-BIO*/
 
-#about {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-   
-}
+
 
 
 
@@ -169,11 +166,11 @@ line-height: 180%;
 }
 
 /* Styling for contact section */
-#contact {
+/*#contact {
     height: 100%;
     background-color: white;
 
-}
+}*/
 
 #info {
     color: black;
@@ -303,7 +300,9 @@ line-height: 180%;
 }
 
 #contact-title {
-    margin-top: 160px;
+    /*margin-top: 160px;*/
+     font-family: 'Lobster', cursive;
+     font-size: 30px;
 }
 
 .contact_group {
@@ -427,4 +426,47 @@ line-height: 180%;
 
 .delay6{
   -webkit-animation-delay: 1s;
+}
+
+
+
+        #section0 img,
+        #section1 img{
+            margin: 20px 0 0 0;
+        }
+        #section2 img{
+            margin: 20px 0 0 52px;
+
+        }
+        #section2 {
+            background-color: #add8e6;
+        }
+        #section3 img{
+            bottom: 0px;
+            position: absolute;
+            margin-left: -420px;
+        }
+        .intro p{
+            width: 50%;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+        .twitter-share-button{
+            position: absolute;
+            z-index: 99;
+            right: 149px;
+            top: 9px;
+        }
+
+.arrow-down {
+    margin-top: 30px;
+    font-size: 70px;
+}
+
+.fa {
+    color: black;
+}
+
+#tag {
+    font-family: 'Arvo', serif;
 }
