@@ -303,6 +303,8 @@ line-height: 180%;
     /*margin-top: 160px;*/
      font-family: 'Lobster', cursive;
      font-size: 30px;
+      margin-top: -130px;
+    margin-bottom: 80px;
 }
 
 .contact_group {
@@ -470,3 +472,33 @@ line-height: 180%;
 #tag {
     font-family: 'Arvo', serif;
 }
+
+
+@media (min-width: 768px) {
+    #name {
+        font-size: 97px;
+        margin-top: -130px;
+    }
+
+ }
+
+  #name {
+        font-size: 90px;
+        margin-top: -130px;
+    }
+
+
+@media (min-width: 768px) {
+    #contact-title {
+        font-size: 47px;
+        margin-top: -130px;
+         margin-bottom: 80px;
+    }
+
+ }
+
+  #contact-title {
+        font-size: 37px;
+        margin-top: -130px;
+         margin-bottom: 80px;
+    }
