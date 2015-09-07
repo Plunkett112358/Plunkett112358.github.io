@@ -15,6 +15,7 @@
     <script src='bootstrap/js/bootstrap.js'></script>
     <script src='javascripts/app.js'></script>
     <script src="javascripts/jquery.fullPage.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
     
@@ -39,9 +40,12 @@
             <div class="col-md-8 col-md-offset-2">
               <img id="eyes" class="img-responsive animated fadeInUp delay5" src="images/eyes.png" alt="">
               <div >
+
+
                <a  id="coding-btn" href="" class="btn btn-default btn-cat pull-right" >
                 <img  class="icon-cat icon-coding" width="50px" src="images/programmer.png">
-                Coding</a>
+                <span class="word">Coding</span>
+                <span class="warning none">Under Construction</span></a>
               <a   href="http://www.meghannplunkett-poetry.com/" class="btn poetry-btn btn-default btn-cat hidden-xs">
                 <img class="icon-cat icon-poetry" width="50px" src="images/pens3.png">
                 Poetry</a>
@@ -136,12 +140,21 @@
 
        $("#coding-btn").hover(
         function () {
-          $('.icon-coding').addClass('animated wobble');
+          $('.warning').removeClass('none');
         }, 
         function () {
-          $('.icon-coding').removeClass('animated wobble');
+          $('.warning').addClass('none');
+        }
+        );
+        $("#coding-btn").hover(
+        function () {
+          $('.word').addClass('none');
+        }, 
+        function () {
+          $('.word').removeClass('none');
         }
         );
   });
   </script>
+
 </html>
