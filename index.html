@@ -49,7 +49,7 @@
               <a   href="http://www.meghannplunkett-poetry.com/" class="btn poetry-btn btn-default btn-cat hidden-xs hidden-sm">
                 <img class="icon-cat icon-poetry" width="50px" src="images/pens3.png">
                 Poetry</a>
-                 <a target="_blank" href="http://www.meghannplunkett-poetry.com/about" class="btn poetry-btn btn-default btn-cat  hidden-lg hidden-md">
+                 <a target="_blank" href="http://www.meghannplunkett-poetry.com/about" class="btn  btn-default btn-cat  hidden-lg hidden-md">
                 <img class="icon-cat icon-poetry" width="50px" src="images/pens3.png">
                 Poetry</a>
             </div>
@@ -129,7 +129,31 @@
       $('#fullpage').fullpage();
 
       
-     
+      $(".poetry-btn").hover(
+        function () {
+          $('.icon-poetry').addClass('animated wobble');
+        }, 
+        function () {
+          $('.icon-poetry').removeClass('animated wobble');
+        }
+        );
+
+       $("#coding-btn").hover(
+        function () {
+          $('.warning').removeClass('none');
+        }, 
+        function () {
+          $('.warning').addClass('none');
+        }
+        );
+        $("#coding-btn").hover(
+        function () {
+          $('.word').addClass('none');
+        }, 
+        function () {
+          $('.word').removeClass('none');
+        }
+        );
   });
   </script>
 
