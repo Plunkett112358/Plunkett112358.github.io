@@ -16,6 +16,7 @@ body {
 }
 
 #name {
+    margin-top:90px;
     /*font-family: 'Special Elite', cursive;*/
     font-family: 'Lobster', cursive;
     font-size: 70px;
@@ -47,8 +48,25 @@ body {
 }
 
 #eyes {
-    width: 70%;
+    /*width: 70%;*/
 
+
+}
+
+.btn-cat{
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left:  40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    border: 2px solid light-gray;
+
+}
+
+.btn-cat:hover{
+    background-color: #add8e6;
 }
 
 
@@ -430,11 +448,20 @@ line-height: 180%;
   -webkit-animation-delay: 1s;
 }
 
+  #section0 img#icon-cat {
+        margin-top:-3px;
+        margin-right: 20px;
+      
+    }
+
 
 
         #section0 img,
         #section1 img{
             margin: 20px 0 0 0;
+
+
+
         }
         #section2 img{
             margin: 20px 0 0 52px;
@@ -510,3 +537,7 @@ line-height: 180%;
         margin-top: -130px;
          margin-bottom: 80px;
     }
+
+
+
+
