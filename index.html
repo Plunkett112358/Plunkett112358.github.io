@@ -39,11 +39,14 @@
             <div class="col-md-8 col-md-offset-2">
               <img id="eyes" class="img-responsive animated fadeInUp delay5" src="images/eyes.png" alt="">
               <div >
-               <a href="" class="btn btn-default btn-cat pull-right" >
-                <img id="icon-cat" width="50px" src="images/programmer.png">
+               <a  id="coding-btn" href="" class="btn btn-default btn-cat pull-right" >
+                <img  class="icon-cat icon-coding" width="50px" src="images/programmer.png">
                 Coding</a>
-              <a href="http://www.meghannplunkett-poetry.com/" class="btn btn-default btn-cat">
-                <img id="icon-cat" width="50px" src="images/pens3.png">
+              <a   href="http://www.meghannplunkett-poetry.com/" class="btn poetry-btn btn-default btn-cat hidden-xs">
+                <img class="icon-cat icon-poetry" width="50px" src="images/pens3.png">
+                Poetry</a>
+                 <a  href="http://www.meghannplunkett-poetry.com/about" class="btn poetry-btn btn-default btn-cat hidden-sm hidden-md">
+                <img class="icon-cat icon-poetry" width="50px" src="images/pens3.png">
                 Poetry</a>
             </div>
             </div>
@@ -120,6 +123,25 @@
   <script>
   $(document).ready(function() {
       $('#fullpage').fullpage();
+
+      
+      $(".poetry-btn").hover(
+        function () {
+          $('.icon-poetry').addClass('animated wobble');
+        }, 
+        function () {
+          $('.icon-poetry').removeClass('animated wobble');
+        }
+        );
+
+       $("#coding-btn").hover(
+        function () {
+          $('.icon-coding').addClass('animated wobble');
+        }, 
+        function () {
+          $('.icon-coding').removeClass('animated wobble');
+        }
+        );
   });
   </script>
 </html>
